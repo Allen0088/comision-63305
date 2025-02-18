@@ -29,11 +29,11 @@ header{
 
     padding: 10px;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #9e0707;
     color: black;
     align-items: center;
         justify-content: space-between;
-    background-color: #141414;
+    background-color: #ffffff;
     width: 100%;
     position:fixed;
     z-index: 10;
@@ -138,7 +138,7 @@ grid-template-rows: repeat(10,1fr);
     justify-self: center;
     order: 1;
     position: relative;
-    left: 100px;
+    left: 200px;
     top: 80px;
 }
 
@@ -188,10 +188,9 @@ header a{
 
 .contenedor-card{
     color: white;
-    padding-top: 80px;
     display: grid;
     width: 100%;
-    height: 800px;
+    height: 1000px;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 background-color: #223320;
@@ -303,15 +302,9 @@ color: rgb(255, 255, 255);
 .almacen-datos{
 display: flex;
     justify-content: center;
-margin-top: 200px;
 font-size: 30px;
 }
 
-.contenedor-card{
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25rem;
-}
 
 .contenedor-info{
     display: flex;
@@ -368,14 +361,15 @@ a img{
 
 button a{
     position: relative;
-    top: 10px;
+    bottom: 15px;
+    right: 40px;
     text-decoration: none;
     font-size: 20px;
 background-color: rgb(238, 228, 96);
 color: rgb(0, 0, 0);
-margin: -10px;
+margin: -30px;
 padding: 15px;
-border-radius: 20px;
+border-radius: 10px;
 } 
 
 .botones{
@@ -384,11 +378,11 @@ border-radius: 20px;
 }
 
 button{
+    width: 0px;
+    height: 0px;
     padding: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(238, 228, 96);
     border-radius: 10px;
-    margin-top: 30px;
 }
 
 .pie-dos{
@@ -435,7 +429,6 @@ color: rgb(255, 255, 255);
     margin-bottom: 200px;
     background-color: #223320;
     box-shadow: black 20p 20px 20px 20px;
-    background-color: rgb(255, 255, 255);
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 }
@@ -663,6 +656,7 @@ grid-row-end: 5;
     grid-row-end: 7;
 }
 
+.almacen-datos
 
 .section-principal-cuatro{
 
@@ -670,7 +664,6 @@ grid-row-end: 5;
     width: 100%;
     height: 600px;
     display: grid;
-    background-color: rgb(255, 253, 253);
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
     background-color: #223320;
@@ -678,7 +671,6 @@ grid-row-end: 5;
     width: 100%;
     height: 600px;
     display: grid;
-    background-color: rgb(255, 255, 255);
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
 }
@@ -952,6 +944,17 @@ box-shadow: black 20px 20px 20px 20px;
     .contenedor-contacto{
         padding-left: 100PX;
     }
+
+.grid-apoyar{
+    width: 1250PX;
+    height: 1000px;
+}
+
+.section-principal-dos{
+    width: 1250PX;
+    height: 1200px;
+}
+
 }
 
 @media(max-width: 944px){
@@ -1012,8 +1015,8 @@ box-shadow: black 20px 20px 20px 20px;
 }
 
     .contenedor-card{
-        height: 900PX;
-        width: 1200px;
+        height: 1000PX;
+        width: 1300px;
     }
     
         .logo-dos{
@@ -1029,6 +1032,8 @@ box-shadow: black 20px 20px 20px 20px;
     }
 
     .contenedor-info{
+        margin-top: 600px;
+        margin-bottom: 500px;
         padding-left: 400PX;
     }
     
