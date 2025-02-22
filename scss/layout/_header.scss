@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+        justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+    position:fixed;
+    z-index: 10;
+    a{
+        width: 10%;
+
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    
+    .logo-dos{
+        font-family: "Forum", serif;
+        display: flex;
+        color: rgb(0, 0, 0);
+        padding-left: 13px;
+    font-size: 35px;
+    }
+
+    nav{
+        width: 90%;
+    }
+}

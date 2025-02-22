@@ -1,0 +1,97 @@
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        a{
+            .logo{
+                width: 70px;
+                height: 70px;
+                object-fit: contain;
+            }
+        }
+    }
+    main{
+        .container-grid{
+            padding-top: 100px;
+            .item0{
+                h1{
+                    font-size: 30px;
+                }
+            }
+            .item1{
+                grid-column: 2/6;
+            }
+            .item2{
+                grid-column: 7/8;
+                .png-grid{
+                    width: 200px;
+                    height: 200px;
+                    object-fit: contain;
+                }
+            }
+            .item4{
+                position: relative;
+                top: -50px;
+                left: 60px;
+            }
+            .item5{
+                left: -40px;
+            }
+        }
+        .contenedor-card{
+            .titulo-medio{
+                h1{
+                    font-size: 35px;
+                }
+            }
+            .parrafo-medio{
+                grid-column: 2/5;
+            }
+            .parrafo-medio-tres{
+                grid-column: 4/5;
+            }
+            .parrafo-medio-menosuno{
+                grid-row: 5/6;
+            }
+        }
+
+
+        .contenedor-grid-grupal{
+            .objeto-tt{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+        .section-container-uno{
+            .section-principal-uno{
+                .parrafo-uno{
+                    h1{
+                        font-size: 25px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .parrafo-dos{
+                    h1{
+                        font-size: 25px;
+                    }
+                    p{
+                        font-size: 18PX;
+                    }
+                }
+                .parrafo-menos-cuatro{
+                    .patas-gato{
+                        width: 120PX;
+                        height: 120PX;
+                    }
+                }
+            }
+        }
+        .contenedor-contacto{
+            .primera-card{
+                margin-bottom: 80px;
+            }
+        }
+    }
+}

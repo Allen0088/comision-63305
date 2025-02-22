@@ -1,0 +1,36 @@
+@media(max-width: 1024px){
+    main{
+        .contenedor-grid-grupal{
+            .objeto-tt{
+                h1{
+                    font-size: 50px;
+                }
+            }
+        }
+        .section-container-uno{
+        .section-principal-uno{
+            .parrafo-uno{
+                p{
+                    font-size: 22PX;
+                    padding: 10PX;
+                }
+                h1{
+                    font-size: 35PX;
+                }
+            }
+            .parrafo-dos{
+                p{
+                    font-size: 22PX;
+                    padding: 10PX;
+                }
+                h1{
+                    font-size: 35PX;
+                }
+            }
+        }
+        }
+        .contenedor-contacto{
+            margin: 100px;
+        }
+    }
+}
