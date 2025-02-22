@@ -32,5 +32,58 @@
         .contenedor-contacto{
             margin: 100px;
         }
+
+
+        .main-logros{
+            width: 1024PX;
+            .main-logros-dos{
+                .main-logros-tres{
+                    box-shadow: none;
+                    .pato-amarillo{
+                        width: 400px;
+                        height: 400px;
+                        object-fit: contain;
+                    }
+                }
+                .main-logro-cuatro{
+                    box-shadow: none;
+                    .burro{
+                        width: 290PX;
+                        height: 290PX;
+                        object-fit: contain;
+                    }
+                }
+                .main-logro-cinco{
+                    box-shadow: none;
+                    .nandu{
+                        width: 350px;
+                        height: 350px;
+                        object-fit: contain;
+                    }
+                }
+            }
+            
+        }
+        .section-container-tres{
+            .section-principal-tres{
+                width: 1050px;
+            }
+        }
+
+
+        .almacen-datos{
+            .section-container-cuatro{
+                .section-principal-cuatro{
+                    .parrafo-menos-catorce{
+                        h1{
+                            font-size: 25PX;
+                        }
+                    }
+                    .parrafo-catorce{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
     }
 }

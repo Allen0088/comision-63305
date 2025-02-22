@@ -585,7 +585,6 @@ main .section-container-tres .section-principal-tres .parrafo-diez {
   grid-row-end: 5;
 }
 main .almacen-datos {
-  display: flex;
   justify-content: center;
   font-size: 30px;
 }
@@ -723,6 +722,32 @@ footer .pie-tres .botones button a {
 footer .pie-tres h2 {
   padding: 20px;
 }
+footer .pie-cuatro {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 200PX;
+  background-color: #223320;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+footer .pie-cuatro .botones {
+  margin: 50PX;
+}
+footer .pie-cuatro .botones button a {
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(238, 228, 96);
+  color: rgb(0, 0, 0);
+  margin: -10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .pie-cuatro h2 {
+  padding: 20px;
+}
 
 .navbar {
   font-size: 20px;
@@ -767,6 +792,42 @@ footer .pie-tres h2 {
   }
   main .contenedor-contacto {
     margin: 100px;
+  }
+  main .main-logros {
+    width: 1024PX;
+  }
+  main .main-logros .main-logros-dos .main-logros-tres {
+    box-shadow: none;
+  }
+  main .main-logros .main-logros-dos .main-logros-tres .pato-amarillo {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }
+  main .main-logros .main-logros-dos .main-logro-cuatro {
+    box-shadow: none;
+  }
+  main .main-logros .main-logros-dos .main-logro-cuatro .burro {
+    width: 290PX;
+    height: 290PX;
+    object-fit: contain;
+  }
+  main .main-logros .main-logros-dos .main-logro-cinco {
+    box-shadow: none;
+  }
+  main .main-logros .main-logros-dos .main-logro-cinco .nandu {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+  }
+  main .section-container-tres .section-principal-tres {
+    width: 1050px;
+  }
+  main .almacen-datos .section-container-cuatro .section-principal-cuatro .parrafo-menos-catorce h1 {
+    font-size: 25PX;
+  }
+  main .almacen-datos .section-container-cuatro .section-principal-cuatro .parrafo-catorce {
+    font-size: 18px;
   }
 }
 @media (max-width: 768px) {
@@ -836,6 +897,12 @@ footer .pie-tres h2 {
   }
   main .contenedor-contacto .primera-card {
     margin-bottom: 80px;
+  }
+  main .main-logros {
+    width: 1050PX;
+  }
+  footer .pie-cuatro {
+    width: 1050PX;
   }
 }
 @media (max-width: 425px) {
@@ -931,6 +998,12 @@ footer .pie-tres h2 {
     width: 520PX;
     height: 600PX;
     margin-bottom: 200px;
+  }
+  main .almacen-datos {
+    width: 520px;
+  }
+  main .almacen-datos .section-container-cuatro .section-principal-cuatro .parrafo-trece {
+    grid-row: 6/7;
   }
   footer {
     width: 520px;

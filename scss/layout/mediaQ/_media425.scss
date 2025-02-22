@@ -106,6 +106,17 @@
             height: 600PX;
             margin-bottom:  200px;
         }
+
+        .almacen-datos{
+            width: 520px;
+            .section-container-cuatro{
+                .section-principal-cuatro{
+                    .parrafo-trece{
+                        grid-row: 6/7;
+                    }
+                }
+            }
+        }
     }
 
     footer{
