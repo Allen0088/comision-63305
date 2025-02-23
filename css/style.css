@@ -18,7 +18,7 @@ a {
 
 @font-face {
   font-family: miFuente;
-  src: url("../assets/fonts/coolvetica.zip");
+  src: url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Overlock+SC&display=swap");
 }
 header {
   display: flex;
@@ -27,7 +27,7 @@ header {
   color: black;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: white;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -77,7 +77,7 @@ main .container-grid .item2 .png-grid {
   height: 300px;
 }
 main .container-grid .item3 {
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 20px;
   width: 150px;
   height: 35px;
@@ -102,7 +102,7 @@ main .container-grid .item4 {
   grid-column: 7/8;
   grid-row: 5/6;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   border-radius: 15px;
   width: 150px;
   height: 35px;
@@ -121,7 +121,7 @@ main .container-grid .item5 {
   grid-row-start: 5;
   grid-row-end: 6;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   border-radius: 15px;
   width: 150px;
   height: 35px;
@@ -215,7 +215,7 @@ main .contenedor-info .botones button a {
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   margin: -10px;
   padding: 30px;
   border-radius: 10px;
@@ -311,7 +311,7 @@ main .section-container-uno .section-principal-uno {
   display: grid;
   margin-bottom: 200px;
   background-color: #223320;
-  box-shadow: black 20p 20px 20px 20px;
+  box-shadow: black 20px 20px 20px 20px;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
 }
@@ -441,7 +441,7 @@ main .grid-causa .grid-apoyar .grid-apoyar-uno {
   grid-row: 3/5;
   align-self: center;
   justify-self: center;
-  color: rgb(0, 0, 0);
+  color: black;
   border-radius: 30PX;
   justify-items: center;
   align-items: center;
@@ -466,7 +466,7 @@ main .section-container-dos .section-principal-dos {
   width: 100%;
   height: 800px;
   display: grid;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
 }
@@ -562,7 +562,7 @@ main .section-container-tres .section-principal-tres {
   width: 100%;
   height: 1000px;
   display: grid;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
 }
@@ -632,7 +632,7 @@ main .almacen-datos .section-principal-cuatro .parrafo-trece button a {
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   margin: -10px;
   padding: 30px;
   border-radius: 10px;
@@ -672,7 +672,7 @@ main .contenedor-infok .card-info h3 {
 
 footer .pie-dos {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
   width: 100%;
   height: 200PX;
   background-color: #223320;
@@ -688,7 +688,7 @@ footer .pie-dos .botones button a {
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   margin: -10px;
   padding: 30px;
   border-radius: 10px;
@@ -698,7 +698,7 @@ footer .pie-dos h2 {
 }
 footer .pie-tres {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
   width: 100%;
   height: 200PX;
   background-color: #223320;
@@ -714,7 +714,7 @@ footer .pie-tres .botones button a {
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   margin: -10px;
   padding: 30px;
   border-radius: 10px;
@@ -724,7 +724,7 @@ footer .pie-tres h2 {
 }
 footer .pie-cuatro {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
   width: 100%;
   height: 200PX;
   background-color: #223320;
@@ -740,7 +740,7 @@ footer .pie-cuatro .botones button a {
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(238, 228, 96);
-  color: rgb(0, 0, 0);
+  color: black;
   margin: -10px;
   padding: 30px;
   border-radius: 10px;

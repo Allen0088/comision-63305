@@ -28,7 +28,7 @@ main{
         }
 
         .item3{
-            color: rgb(0, 0, 0);
+            color: $color-tres;
     font-size: 20px;
     width: 150px;
     height: 35px;
@@ -37,7 +37,7 @@ main{
     grid-row-start: 5;
     grid-row-end: 7;
     border-radius: 15px;
-    background-color: rgb(238, 228, 96);
+    background-color: $color-cuatro;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -52,8 +52,8 @@ main{
             .item4{
                 grid-column: 7/8;
     grid-row: 5/6;
-    background-color: rgb(238, 228, 96);
-    color: rgb(0, 0, 0);
+    background-color: $color-cuatro;
+    color: $color-tres;
     border-radius: 15px;
     width: 150px;
     height: 35px;
@@ -71,8 +71,8 @@ main{
     grid-column-end: 8;
     grid-row-start: 5;
     grid-row-end: 6;
-    background-color: rgb(238, 228, 96);
-    color: rgb(0, 0, 0);
+    background-color: $color-cuatro;
+    color: $color-tres;
     border-radius: 15px;
     width: 150px;
     height: 35px;
@@ -85,13 +85,13 @@ main{
                 }
     }
     .contenedor-card{
-        color: white;
+        color: $color-dos;
         display: grid;
         width: 100%;
         height: 1000px;
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(8,1fr);
-    background-color: #223320;
+    background-color: $color-uno;
     .titulo-medio{
         grid-column-start: 2;
         grid-column-end: 4;
@@ -120,8 +120,8 @@ main{
         .gato-png{
             width: 400px;
             height: 400px;
-            background-color: rgb(238, 228, 96);
-            box-shadow: black 20px 20px 20px 20px;
+            background-color: $color-cuatro;
+            box-shadow: $color-tres 20px 20px 20px 20px;
             object-fit: contain;
             border-radius: 35px;
         }
@@ -164,8 +164,8 @@ main{
                 position: relative;
                 text-decoration: none;
                 font-size: 20px;
-            background-color: rgb(238, 228, 96);
-            color: rgb(0, 0, 0);
+            background-color: $color-cuatro;
+            color: $color-tres;
             margin: -10px;
             padding: 30px;
             border-radius: 10px;
@@ -261,8 +261,8 @@ main{
             height: 800px;
             display: grid;
             margin-bottom: 200px;
-            background-color: #223320;
-            box-shadow: black 20p 20px 20px 20px;
+            background-color: $color-uno;
+            box-shadow: $color-tres 20px 20px 20px 20px;
             grid-template-columns: repeat(8,1fr);
             grid-template-rows: repeat(8,1fr);
             .parrafo-uno{
@@ -273,7 +273,7 @@ main{
                 justify-self: center;
                 align-self: center;
                 font-size: 35px;
-                color: white;
+                color: $color-dos;
                 h1{
                     font-size: 50px;
                 }
@@ -284,7 +284,7 @@ main{
                 grid-row-start: 3;
                 grid-row-end: 5;
                 font-size: 35px;
-                color: white; 
+                color: $color-dos; 
                 h1{
                     font-size: 50px;
                 }
@@ -299,8 +299,8 @@ main{
                 button a{
                     text-decoration: none;
                     font-size: 20px;
-                    background-color: rgb(238, 228, 96);
-                    color: black;
+                    background-color: $color-cuatro;
+                    color: $color-tres;
                     margin: -10px;
                     padding: 30px;
                     border-radius: 10px;
@@ -333,12 +333,12 @@ main{
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
-        background-color: #223320;
+        background-color: $color-uno;
         justify-content: center;
         align-content: center;
         justify-items: center;
         align-items: center;
-        box-shadow: black 10PX 10PX 10PX 10PX;
+        box-shadow: $color-tres 10PX 10PX 10PX 10PX;
         border-radius: 30px;
         }
         .segunda-card{
@@ -353,8 +353,8 @@ main{
             align-items: center;
             display: flex;
             flex-direction: column;
-            background-color: #223320;
-            box-shadow: black 10px 10px 10px 10px;
+            background-color: $color-uno;
+            box-shadow: $color-tres 10px 10px 10px 10px;
             border-radius: 30px;
         }
         .tercera-card{
@@ -369,8 +369,8 @@ main{
             align-content: center;
             justify-items: center;
             align-items: center;
-            background-color: #223320;
-            box-shadow: black 10px 10px 10px 10px;
+            background-color: $color-uno;
+            box-shadow: $color-tres 10px 10px 10px 10px;
             border-radius: 30px;
         }
         .foto1{
@@ -387,21 +387,21 @@ main{
             grid-template-rows: repeat(6,1fr);
             width: 100%;
             height: 1000px;
-            background-color: #223320;
+            background-color: $color-uno;
             padding-top: 200PX;
             .grid-apoyar-uno{
                 grid-column: 4/6;
                 grid-row: 3/5;
                 align-self: center;
                 justify-self: center;
-                color: rgb(0, 0, 0);;
+                color: $color-tres;
                 border-radius: 30PX;
                 justify-items: center;
                 align-items: center;
                 justify-content: center;
                 align-content: center;
                 order: 1;
-                color: white;
+                color: $color-dos;
             }
             .imagen-main{
                 grid-column: 2/5;
@@ -420,7 +420,7 @@ main{
             width: 100%;
             height: 800px;
             display: grid;
-            background-color: rgb(255, 255, 255);
+            background-color: $color-dos;
             grid-template-columns: repeat(8,1fr);
             grid-template-rows: repeat(8,1fr);
             .parrafo-cuatro{
@@ -451,8 +451,8 @@ main{
                 button a{
                 text-decoration: none;
                 font-size: 20px;
-                background-color: rgb(238, 228, 96);
-                color: black;
+                background-color: $color-cuatro;
+                color: $color-tres;
                 margin: -10px;
                 padding: 30px;
                 border-radius: 10px;
@@ -468,13 +468,13 @@ main{
             width: 100%;
             height: 1000px;
             padding-top: 200PX;
-            background-color: #223320;
+            background-color: $color-uno;
             .main-logros-tres{
                 grid-column: 3/5;
                 grid-row: 3/5;
                 justify-self: center;
                 align-self: center;
-            box-shadow: black 20px 20px 20px 20px;
+            box-shadow: $color-tres 20px 20px 20px 20px;
             .pato-amarillo{
                 width: 793PX;
                 height: 468PX;
@@ -486,7 +486,7 @@ main{
                 grid-row: 3/5;
                 align-self: center;
                 justify-self: center;
-                box-shadow: black 20px 20px 20px 20px;
+                box-shadow: $color-tres 20px 20px 20px 20px;
                 .burro{
                     width: 400PX;
                     height: 300PX;
@@ -498,7 +498,7 @@ main{
                 grid-row: 3/5;
                 align-self: center;
                 justify-self: center;
-                box-shadow: black 20px 20px 20px 20px;
+                box-shadow: $color-tres 20px 20px 20px 20px;
                 .nandu{
                     width: 500PX;
                     height: 270PX;
@@ -511,7 +511,7 @@ main{
                 justify-self: center;
                 align-self: center;
                 font-family: "Overlock SC", serif;
-                color: white;
+                color: $color-dos;
             }
         }
     }
@@ -520,7 +520,7 @@ main{
             width: 100%;
             height: 1000px;
             display: grid;
-            background-color: rgb(255, 255, 255);
+            background-color: $color-dos;
             grid-template-columns: repeat(8,1fr);
             grid-template-rows: repeat(8,1fr);
             .parrafo-ocho{
@@ -553,8 +553,8 @@ main{
             display: grid;
             grid-template-columns: repeat(8,1fr);
             grid-template-rows: repeat(8,1fr);
-            background-color: #223320;
-            color: white;
+            background-color: $color-uno;
+            color: $color-dos;
             width: 100%;
             height: 600px;
             display: grid;
@@ -587,8 +587,8 @@ main{
                     position: relative;
                 text-decoration: none;
                 font-size: 20px;
-            background-color: rgb(238, 228, 96);
-            color: rgb(0, 0, 0);
+            background-color: $color-cuatro;
+            color: $color-tres;
             margin: -10px;
             padding: 30px;
             border-radius: 10px;
