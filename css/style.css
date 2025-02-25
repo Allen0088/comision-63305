@@ -16,10 +16,6 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: miFuente;
-  src: url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Overlock+SC&display=swap");
-}
 header {
   display: flex;
   padding: 10px;
@@ -375,6 +371,7 @@ main .contenedor-contacto {
   margin: 200px;
 }
 main .contenedor-contacto .primera-card {
+  color: white;
   gap: 30px;
   width: 350px;
   height: 500px;
@@ -555,7 +552,6 @@ main .main-logros .main-logros-dos .parrafo-logro {
   grid-row: 3/5;
   justify-self: center;
   align-self: center;
-  font-family: "Overlock SC", serif;
   color: white;
 }
 main .section-container-tres .section-principal-tres {
