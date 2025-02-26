@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Overlock+SC&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +18,8 @@ a {
 }
 
 header {
-  display: flex;
   padding: 10px;
+  display: flex;
   justify-content: space-between;
   color: black;
   align-items: center;
@@ -39,7 +40,7 @@ header .logo {
 header .logo-dos {
   font-family: "Forum", serif;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: black;
   padding-left: 13px;
   font-size: 35px;
 }
@@ -58,6 +59,9 @@ main .container-grid .item0 {
   font-size: 30px;
   grid-column: 2/5;
   grid-row: 4/5;
+}
+main .container-grid .item0 h1 {
+  font-family: "Oswald", serif;
 }
 main .container-grid .item1 {
   font-size: 18px;
@@ -144,6 +148,9 @@ main .contenedor-card .titulo-medio {
   grid-row-end: 3;
   font-size: 20px;
 }
+main .contenedor-card .titulo-medio h1 {
+  font-family: "Oswald", serif;
+}
 main .contenedor-card .parrafo-medio-menosuno {
   grid-column-start: 6;
   grid-column-end: 7;
@@ -156,6 +163,9 @@ main .contenedor-card .parrafo-medio-menosuno {
   justify-content: center;
   align-content: center;
   font-size: 20px;
+}
+main .contenedor-card .parrafo-medio-menosuno h1 {
+  font-family: "Oswald", serif;
 }
 main .contenedor-card .parrafo-medio-cero {
   grid-column-start: 6;
@@ -203,6 +213,9 @@ main .contenedor-info .card-uno {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+main .contenedor-info .card-uno h3 {
+  font-family: "Oswald", serif;
+}
 main .contenedor-info .botones {
   margin: 50PX;
 }
@@ -222,9 +235,15 @@ main .contenedor-info .card-dos {
   justify-content: center;
   justify-items: center;
 }
+main .contenedor-info .card-dos h3 {
+  font-family: "Oswald", serif;
+}
 main .contenedor-info .card-tres {
   grid-column: 7/8;
   grid-row: 2/3;
+}
+main .contenedor-info .card-tres h3 {
+  font-family: "Oswald", serif;
 }
 main .contenedor-grid-grupal {
   display: grid;
@@ -238,6 +257,9 @@ main .contenedor-grid-grupal .objeto-tt {
   grid-column: 4/6;
   grid-row: 3/4;
   font-size: 60px;
+}
+main .contenedor-grid-grupal .objeto-tt h1 {
+  font-family: "Oswald", serif;
 }
 main .contenedor-grid-grupal .objeto-cero {
   grid-column: 4/6;
@@ -323,6 +345,7 @@ main .section-container-uno .section-principal-uno .parrafo-uno {
 }
 main .section-container-uno .section-principal-uno .parrafo-uno h1 {
   font-size: 50px;
+  font-family: "Oswald", serif;
 }
 main .section-container-uno .section-principal-uno .parrafo-dos {
   grid-column-start: 6;
@@ -334,6 +357,7 @@ main .section-container-uno .section-principal-uno .parrafo-dos {
 }
 main .section-container-uno .section-principal-uno .parrafo-dos h1 {
   font-size: 50px;
+  font-family: "Oswald", serif;
 }
 main .section-container-uno .section-principal-uno .parrafo-tres {
   grid-column-start: 4;
@@ -446,6 +470,9 @@ main .grid-causa .grid-apoyar .grid-apoyar-uno {
   align-content: center;
   order: 1;
   color: white;
+}
+main .grid-causa .grid-apoyar .grid-apoyar-uno h1 {
+  font-family: "Oswald", serif;
 }
 main .grid-causa .grid-apoyar .imagen-main {
   grid-column: 2/5;
@@ -607,6 +634,9 @@ main .almacen-datos .section-principal-cuatro .parrafo-menos-catorce {
   justify-self: center;
   align-self: center;
 }
+main .almacen-datos .section-principal-cuatro .parrafo-menos-catorce h1 {
+  font-family: "Oswald", serif;
+}
 main .almacen-datos .section-principal-cuatro .parrafo-catorce {
   grid-column-start: 4;
   grid-column-end: 6;
@@ -743,6 +773,7 @@ footer .pie-cuatro .botones button a {
 }
 footer .pie-cuatro h2 {
   padding: 20px;
+  font-family: "Oswald", serif;
 }
 
 .navbar {
@@ -766,6 +797,22 @@ footer .pie-cuatro h2 {
 @media (max-width: 1440px) {
   main .contenedor-contacto .tercera-card {
     margin: 50px;
+  }
+  main .grid-causa .grid-apoyar .grid-apoyar-uno {
+    grid-column: 3/6;
+    grid-row: 5/6;
+    align-self: center;
+    justify-self: center;
+  }
+  main .grid-causa .grid-apoyar .imagen-main {
+    grid-row: 1/5;
+    grid-column: 4/5;
+    align-self: center;
+    justify-self: center;
+  }
+  main .grid-causa .grid-apoyar .imagen-main .img-causa {
+    width: 500px;
+    height: 500px;
   }
 }
 @media (max-width: 1024px) {
@@ -901,7 +948,7 @@ footer .pie-cuatro h2 {
     width: 1050PX;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   main .container-grid {
     width: 520px;
   }

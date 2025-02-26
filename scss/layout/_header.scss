@@ -1,11 +1,6 @@
 header{
-    display: flex;
     padding: 10px;
-    justify-content: space-between;
-    color: $color-tres;
-    align-items: center;
-        justify-content: space-between;
-    background-color: $color-dos;
+    @include header;
     width: 100%;
     position:fixed;
     z-index: 10;
@@ -22,7 +17,7 @@ header{
     .logo-dos{
         font-family: "Forum", serif;
         display: flex;
-        color: rgb(0, 0, 0);
+        color: map-get($colores, color3 );
         padding-left: 13px;
     font-size: 35px;
     }

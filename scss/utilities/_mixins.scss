@@ -1,0 +1,8 @@
+@mixin header{
+    display: flex;
+    justify-content: space-between;
+    color: map-get($colores , color3 );
+    align-items: center;
+        justify-content: space-between;
+    background-color: map-get($colores, color2 );
+}
