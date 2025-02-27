@@ -164,10 +164,23 @@ main{
         grid-template-rows: repeat(8,1fr) ;
         gap: 20px;
         .card-uno{
+            width: 450px;
+            height: 400px;
+            background-color: map-get($colores , color2 );
+            border-radius: 20px;
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
             grid-column: 2/3;
-            grid-row: 2/3;
+            grid-row: 3/4;
+            color: map-get($colores , color3 );
+            p{
+                padding: 30px;
+                font-size: 20px;
+            }
             h3{
                 font-family: $oswald;
+                font-size: 30px;
+                padding: 20px;
+                justify-self: center;
             }
         }
         .botones{
@@ -184,19 +197,43 @@ main{
             } 
         }
         .card-dos{
-            grid-column: 4/6;
-            grid-row: 2/6;
+            width: 450px;
+            height: 400px;
+            grid-column: 4/5;
+            grid-row: 3/4;
+            background-color: map-get($colores , color2 );
+            border-radius: 20px;
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
             justify-content: center;
             justify-items: center;
             h3{
                 font-family: $oswald;
+                padding: 30px;
+                font-size: 30px;
+            }
+            p{
+                padding: 30px;
             }
         }
         .card-tres{
-            grid-column: 7/8;
-            grid-row: 2/3;
+            width: 450px;
+            height: 400px;
+            background-color: map-get($colores , color2 );
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
+            border-radius: 20px;
+            grid-column: 6/7;
+            grid-row: 3/4;
+            justify-content: center;
+            justify-items: center;
             h3{
                 font-family: $oswald;
+                padding: 30px;
+                font-size: 30px;
+            }
+            p{
+                padding: 30px;
             }
         }
     }
