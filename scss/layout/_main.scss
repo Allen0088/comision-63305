@@ -407,7 +407,7 @@ main{
         justify-content:space-evenly;
         margin: 200px;
         .primera-card{
-            color: map-get($colores, color2 );
+            color: map-get($colores, color3 );
         gap: 30px;
         width: 350px;
         height: 500px;
@@ -415,12 +415,12 @@ main{
         margin-bottom: 10px;
         display: flex;
         flex-direction: column;
-        background-color: map-get($colores, color1 );
+        background-color: map-get($colores, color2 );
         justify-content: center;
         align-content: center;
         justify-items: center;
         align-items: center;
-        box-shadow: map-get($colores, color3 ) 10PX 10PX 10PX 10PX;
+        box-shadow: map-get($colores, color5 ) 3px 3px 3px 3px;
         border-radius: 30px;
         }
         .segunda-card{
@@ -513,21 +513,57 @@ main{
                 grid-column-end: 4;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                width: 450px;
+            height: 350px;
+            background-color: map-get($colores , color2 );
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
+            border-radius: 20px;
+            align-content: center;
+                justify-content: center;
+                p{
+                    padding: 20px;
+                    font-size: 30px;
+                }
             }
             .parrafo-cinco{
                 grid-column-start: 5;
                 grid-column-end: 6;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                width: 450px;
+            height: 350px;
+            background-color: map-get($colores , color2 );
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
+            border-radius: 20px;
+            align-content: center;
+                justify-content: center;
+                p{
+                    padding: 20px;
+                    font-size: 30px;
+                }
             }
             .parrafo-seis{
                 grid-column-start: 7;
                 grid-column-end: 8;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                width: 450px;
+            height: 350px;
+            background-color: map-get($colores , color2 );
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
+            border-radius: 20px;
+            align-content: center;
+                justify-content: center;
+                p{
+                    padding: 20px;
+                    font-size: 30px;
+                }
             }
             .parrafo-siete{
-                grid-column-start: 4;
+                grid-column-start: 5;
                 grid-column-end: 6;
                 grid-row-start: 6;
                 grid-row-end: 7;
@@ -612,18 +648,54 @@ main{
                 grid-column-end: 4;
                 grid-row-end: 4;
                 grid-row-end: 5;
+                width: 450px;
+            height: 350px;
+            background-color: map-get($colores , color2 );
+            box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+            color: map-get($colores , color3 );
+            border-radius: 20px;
+            align-content: center;
+                justify-content: center;
+                p{
+                    padding: 20px;
+                    font-size: 25px;
+                }
             }
             .parrafo-nueve{
                 grid-column-start: 5;
                 grid-column-end: 6;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                width: 400px;
+                height: 350px;
+                background-color: map-get($colores , color2 );
+                box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+                color: map-get($colores , color3 );
+                border-radius: 20px;
+                align-content: center;
+                    justify-content: center;
+                    p{
+                        padding: 20px;
+                        font-size: 25px;
+                    }
             }
             .parrafo-diez{
                 grid-column-start: 7;
                 grid-column-end: 8;
                 grid-row-start: 4;
                 grid-row-end: 5;
+                width: 450px;
+                height: 350px;
+                background-color: map-get($colores , color2 );
+                box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+                color: map-get($colores , color3 );
+                border-radius: 20px;
+                align-content: center;
+                    justify-content: center;
+                    p{
+                        padding: 20px;
+                        font-size: 25px;
+                    }
             }
         }
     }
@@ -699,6 +771,7 @@ main{
         align-content: center;
         align-items: center;
         justify-items: center;
+        
     .pajaro{
         width: 200PX;
         height: 200px;

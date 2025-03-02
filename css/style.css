@@ -453,7 +453,7 @@ main .contenedor-contacto {
   margin: 200px;
 }
 main .contenedor-contacto .primera-card {
-  color: white;
+  color: black;
   gap: 30px;
   width: 350px;
   height: 500px;
@@ -461,12 +461,12 @@ main .contenedor-contacto .primera-card {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  background-color: #223320;
+  background-color: white;
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: center;
-  box-shadow: black 10PX 10PX 10PX 10PX;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
   border-radius: 30px;
 }
 main .contenedor-contacto .segunda-card {
@@ -557,21 +557,57 @@ main .section-container-dos .section-principal-dos .parrafo-cuatro {
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-dos .section-principal-dos .parrafo-cuatro p {
+  padding: 20px;
+  font-size: 30px;
 }
 main .section-container-dos .section-principal-dos .parrafo-cinco {
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 4;
   grid-row-end: 5;
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-dos .section-principal-dos .parrafo-cinco p {
+  padding: 20px;
+  font-size: 30px;
 }
 main .section-container-dos .section-principal-dos .parrafo-seis {
   grid-column-start: 7;
   grid-column-end: 8;
   grid-row-start: 4;
   grid-row-end: 5;
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-dos .section-principal-dos .parrafo-seis p {
+  padding: 20px;
+  font-size: 30px;
 }
 main .section-container-dos .section-principal-dos .parrafo-siete {
-  grid-column-start: 4;
+  grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 6;
   grid-row-end: 7;
@@ -652,18 +688,54 @@ main .section-container-tres .section-principal-tres .parrafo-ocho {
   grid-column-end: 4;
   grid-row-end: 4;
   grid-row-end: 5;
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-tres .section-principal-tres .parrafo-ocho p {
+  padding: 20px;
+  font-size: 25px;
 }
 main .section-container-tres .section-principal-tres .parrafo-nueve {
   grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 4;
   grid-row-end: 5;
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-tres .section-principal-tres .parrafo-nueve p {
+  padding: 20px;
+  font-size: 25px;
 }
 main .section-container-tres .section-principal-tres .parrafo-diez {
   grid-column-start: 7;
   grid-column-end: 8;
   grid-row-start: 4;
   grid-row-end: 5;
+  width: 450px;
+  height: 350px;
+  background-color: white;
+  box-shadow: rgb(59, 59, 59) 3px 3px 3px 3px;
+  color: black;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+main .section-container-tres .section-principal-tres .parrafo-diez p {
+  padding: 20px;
+  font-size: 25px;
 }
 main .almacen-datos {
   justify-content: center;
